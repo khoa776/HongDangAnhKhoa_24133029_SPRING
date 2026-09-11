@@ -1,0 +1,12 @@
+<sitemesh>
+    <!-- Đăng ký file bọc khung decorator -->
+    <mapping path="/*" name="web" decorator="web.jsp"/>
+    <mapping path="/admin/*" name="admin" decorator="admin.jsp"/>
+         
+    <!-- Các đường dẫn không áp dụng sitemesh -->
+    <mapping path="/login*" exclude="true"/>
+    <mapping path="/register*" exclude="true"/>
+    <mapping path="/api*" exclude="true"/>
+    <mapping path="/static/*" exclude="true"/>
+    <mapping path="/assets/*" exclude="true"/>
+</sitemesh>
