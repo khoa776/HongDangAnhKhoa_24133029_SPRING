@@ -43,9 +43,7 @@ pageEncoding="UTF-8"%> <%@ taglib prefix="c" uri="jakarta.tags.core" %>
       <sitemesh:write property="body" />
     </div>
 
-    <footer class="bg-light text-center py-3 border-top mt-auto">
-      <small>© 2026 Admin Portal - Bootstrap Template</small>
-    </footer>
+    <footer class="bg-light text-center py-3 border-top mt-auto"></footer>
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
